@@ -25,13 +25,13 @@ main {
     grid-row: 2 / -2;
     /* grid inside main */
     display: grid;
-    grid-template-columns: minmax(1.25em, 3.31em) 4.25em minmax(309px, 100%) 4.25em minmax(1.25em, 3.31em);
+    grid-template-columns: minmax(1.25em, 3.31em) 4.25em minmax(225px, 100%) 4.25em minmax(1.25em, 3.31em);
     grid-template-rows: auto auto;
 }
 
 .nested-grid {
     display: grid;
-    grid-template-columns: minmax(1.25em, 3.31em) 4.25em minmax(309px, 100%) 4.25em minmax(1.25em, 3.31em);
+    grid-template-columns: minmax(1.25em, 3.31em) 4.25em minmax(225px, 100%) 4.25em minmax(1.25em, 3.31em);
     grid-column: 1 / -1; 
 }
 
